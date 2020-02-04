@@ -8,12 +8,14 @@
     <remote name="ettus" fetch="git://github.com/EttusResearch" />
 
     <remote name="mender" fetch="git://github.com/mendersoftware" />
+    
+    <remote name="tensor" fetch="https://github.com/EjonesNI/meta-tensorflow" />
 
     <!-- branch 1.40 -->
     <project name="bitbake"  remote="openembedded" path="bitbake" revision="79e62eef1c93f742bf71e9f25db57fdd2ffedd02" />
 
     <!-- branch thud -->
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="d60bfe6a96f6ed788d503a5f6b442ec6cf13f507" />
+    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="434d1b54c62877f169c2a48c9fb97fa20ea4d1bf" />
 
     <!-- branch thud -->
     <project name="meta-mender" remote="mender" path="meta-mender" revision="761a4c5277decb80154ca239745b40a206ffc05e" />
@@ -32,5 +34,11 @@
 
     <!-- branch thud -->
     <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="5bfb24d4005fa38fff9b772f6686dd5ad09b7703" />
+    
+    <!-- branch thud -->
+    <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="5bfb24d4005fa38fff9b772f6686dd5ad09b7703" />
+    
+    <!-- branch EjonesNI-patch-1 -->
+    <project name="meta-tensorflow"  remote="tensor" path="meta-tensorflow" 247916f171680c7bb78b6f18c5970bd85a377706" />
 
 </manifest>
