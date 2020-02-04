@@ -14,8 +14,8 @@
     <!-- branch 1.40 -->
     <project name="bitbake"  remote="openembedded" path="bitbake" revision="79e62eef1c93f742bf71e9f25db57fdd2ffedd02" />
 
-    <!-- branch thud -->
-    <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="434d1b54c62877f169c2a48c9fb97fa20ea4d1bf" />
+    <!-- branch tensorflow -->
+    <project name="meta-ettus" remote="tensor" path="meta-ettus" revision="60b9a5470fe5cb02f93894d8ef9dd1faf1d3b79d" />
 
     <!-- branch thud -->
     <project name="meta-mender" remote="mender" path="meta-mender" revision="761a4c5277decb80154ca239745b40a206ffc05e" />
