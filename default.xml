@@ -39,6 +39,6 @@
     <project name="meta-sdr"  remote="ettus" path="meta-sdr" revision="5bfb24d4005fa38fff9b772f6686dd5ad09b7703" />
     
     <!-- branch EjonesNI-patch-1 -->
-    <project name="meta-tensorflow"  remote="tensor" path="meta-tensorflow" 247916f171680c7bb78b6f18c5970bd85a377706" />
+    <project name="meta-tensorflow"  remote="tensor" path="meta-tensorflow" revision="247916f171680c7bb78b6f18c5970bd85a377706" />
 
 </manifest>
